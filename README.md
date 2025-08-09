@@ -1,33 +1,44 @@
-# DataKeeper
+# 📱 DataKeeper
 
-This is my CRUD (Create, Read, Update, Delete) application with local SQLite database integration, designed to manage user records efficiently.
+**A lightweight offline user management app with built-in export capabilities**
 
-## Key Features
 
-### **User Management**
-- Add, edit, view, and delete user profiles with details like **name, phone, city, postal code, and street**.
-- Responsive data table with horizontal scrolling for large datasets.
+<img src="screenshots/app_preview.png" width="300" alt="App Preview">
 
-### **Data Export**
-- **PDF Export**: Generate printable reports of user data in tabular format.
-- **Database Backup**: Export the SQLite database to device storage for backup or transfer.
+## ✨ Features
 
-### **Modern UI**
-- Clean, intuitive interface with:
-  - Floating action buttons (PDF/DB export).
-  - Empty state prompts.
-  - Top-aligned snackbar notifications.
-  - Bottom navigation for quick actions.
+### Effortless Contact Management
+- Add, edit, and delete user profiles
+- Store contact details (name, phone, address)
+- Clean tabular interface with smooth scrolling
 
-### **Error Handling**
-- Robust validation and user-friendly error messages.
+### Powerful Export Options
+- Generate PDF reports of your contacts
+- Backup entire database to your device
+- Open exported files with one tap
 
-### **Technical Highlights**
-- **SQLite Database**: Local storage with `sqflite`.
-- **PDF Generation**: Using `pdf` package.
-- **File Handling**: Export/import DB files with `path_provider` and `open_file`.
+### Designed for Reliability
+- 100% offline - no internet required
+- Intuitive interface with helpful prompts
+- Built with secure local storage (SQLite)
 
----
+## 🛠️ Technical Stack
+- **Framework**: Flutter
+- **Database**: SQLite (via `sqflite`)
+- **PDF Generation**: `pdf` package
+- **File Handling**: `path_provider` + `open_file`
 
-## Purpose
-Ideal for small businesses or personal use to digitally manage contact lists or similar structured data **offline**, with options to export for record-keeping.
+## 🤔 Why Use DataKeeper?
+Perfect for:
+- Small business customer management
+- Personal contact organization
+- Situations requiring offline access
+- Quick contact list exports
+
+## 📸 Screenshots
+| View Contacts | Add New | Export Options |
+|--------------|---------|----------------|
+| <img src="screenshots/list_view.png" width="200"> | <img src="screenshots/add_view.png" width="200"> | <img src="screenshots/export_view.png" width="200"> |
+
+## 📜 License
+MIT - See [LICENSE](LICENSE) for details
