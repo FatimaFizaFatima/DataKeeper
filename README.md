@@ -2,9 +2,6 @@
 
 **A lightweight offline user management app with built-in export capabilities**
 
-
-<img src="screenshots/app_preview.png" width="300" alt="App Preview">
-
 ## ✨ Features
 
 ### Effortless Contact Management
@@ -40,5 +37,3 @@ Perfect for:
 |--------------|---------|----------------|
 | <img src="screenshots/list_view.png" width="200"> | <img src="screenshots/add_view.png" width="200"> | <img src="screenshots/export_view.png" width="200"> |
 
-## 📜 License
-MIT - See [LICENSE](LICENSE) for details
